@@ -1,4 +1,4 @@
-class Teste():
+class Teste:
     """ Conceito de encapsulamento de objetos"""
     def __init__(self, valor):
         self.x = valor
