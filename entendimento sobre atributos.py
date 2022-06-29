@@ -15,4 +15,3 @@ print('-'*10)
 
 print(cat1.nome)
 print(cat2.nome)
-

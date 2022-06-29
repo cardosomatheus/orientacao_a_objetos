@@ -12,7 +12,8 @@ class Cubo:
         return 'cubo calculado:' + str(cubo)
 
 
-teste = Cubo(500)
-c = teste.calcular_cubo()
-print(c)
+numero = int(input('Entre com um numero: '))
+objcubo = Cubo(numero)  # instanciar  a classe
 
+cubo = objcubo.calcular_cubo()
+print(cubo)
